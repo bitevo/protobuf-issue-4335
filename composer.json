@@ -1,0 +1,26 @@
+{
+    "name": "sbhalim/protobuf-issue-4335",
+    "description": "Test case for GPB issue #4335",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\": "GPBMetadata"
+        }
+    },
+    "require": {
+        "google/protobuf": "v3.5.1.1"
+    },
+    "scripts": {
+        "test": [
+            "php -q index.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sbhalim",
+            "email": "sbhalim@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
